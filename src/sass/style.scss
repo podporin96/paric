@@ -1,5 +1,6 @@
 $main-color: #fcddec;
-$second-color: rgb(248, 115, 197);
+$second-color: #EF5DA8;
+;
 $third-color: #6B8A7D;
 @font-face {
     font-family: 'Alegreya SC Regular';
@@ -10,15 +11,15 @@ $third-color: #6B8A7D;
     font-weight: normal;
     font-style: normal;
     }
-// @font-face {
-//     font-family: 'felixtitling';
-//     src: url('../fonts/felixtitling.eot');
-//     src: url('../fonts/felixtitling.eot?#iefix') format('embedded-opentype'),
-//     url('../fonts/felixtitling.woff') format('woff'),
-//     url('../fonts/felixtitling.ttf') format('truetype');
-//     font-weight: normal;
-//     font-style: normal;
-//     }
+@font-face {
+    font-family: 'felixtitling';
+    src: url('../fonts/felixtitling.eot');
+    src: url('../fonts/felixtitling.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/felixtitling.woff') format('woff'),
+    url('../fonts/felixtitling.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 @font-face {
     font-family: 'Calligraffiti';
     src: url('../fonts/Calligraffiti.eot');
@@ -48,7 +49,7 @@ $third-color: #6B8A7D;
     }
 * {
     font-family: 'felixtitling';
-}
+    }
 .container {
     position: relative;
     width: 950px;
@@ -57,3 +58,4 @@ $third-color: #6B8A7D;
 
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/price';
