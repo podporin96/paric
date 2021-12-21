@@ -1,0 +1,59 @@
+$main-color: #fcddec;
+$second-color: rgb(248, 115, 197);
+$third-color: #6B8A7D;
+@font-face {
+    font-family: 'Alegreya SC Regular';
+    src: url('../fonts/AlegreyaSC-Regular.eot');
+    src: url('../fonts/AlegreyaSC-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AlegreyaSC-Regular.woff') format('woff'),
+    url('../fonts/AlegreyaSC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+// @font-face {
+//     font-family: 'felixtitling';
+//     src: url('../fonts/felixtitling.eot');
+//     src: url('../fonts/felixtitling.eot?#iefix') format('embedded-opentype'),
+//     url('../fonts/felixtitling.woff') format('woff'),
+//     url('../fonts/felixtitling.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+//     }
+@font-face {
+    font-family: 'Calligraffiti';
+    src: url('../fonts/Calligraffiti.eot');
+    src: url('../fonts/Calligraffiti.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Calligraffiti.woff') format('woff'),
+    url('../fonts/Calligraffiti.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Micra';
+    src: url('../fonts/Micra.eot');
+    src: url('../fonts/Micra.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Micra.woff') format('woff'),
+    url('../fonts/Micra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'typography';
+    src: url('../fonts/typography.eot');
+    src: url('../fonts/typography.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/typography.woff') format('woff'),
+    url('../fonts/Micra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+* {
+    font-family: 'felixtitling';
+}
+.container {
+    position: relative;
+    width: 950px;
+    margin: 0 auto; 
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
